@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0 center;
+  padding: 20px 20px 0 20px;
+  background: #FFF8DC;
+  border: 4px solid #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  text-align: left;
+}
+
+img {
+  width: 180px;
+  height: 210px;
+  margin: 20px 30px 0 0;
+}
+
+.name_qualification {
+  display: block;
+  margin: 40px 160px 0 20px;
+  font-weight: 400;
+  text-align: center;
+  left: 10px;
+  line-height: 50px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.qualification {
+  font-size: 24px;
+}
+
+.contacts {
+  display: block;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.my_contacts {
+  list-style-type: none;
+  padding: 10px 0;
+  font-weight: 400;
+  color: #000;
+}
+
+a {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+.about, .skills, .code, .experience, .education, .english {
+  display: block;
+  padding: 5px 30px;
+  margin: 0;
+}
+
+.about_text, .skills_text, .experience_text, .education_text, .english_text {
+  padding: 10px 0;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.skills_text, .experience_text, .education_text, .english_text {
+  padding: 10px 20px;
+}
+
+footer {
+  height: 80px;
+  background: #D2B48C;
+  margin: 0 10px;
+}
+
+.footer_wrapper {
+  display: block;
+  padding: 0 0 10px 0;
+}
+
+.footer_github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_social {
+  padding: 0 0 20px 0;
+}
+
+.footer_social img {
+  width: 62px;
+  height: 62px;
+}
+
+.year {
+  font-weight: 700;
+}
